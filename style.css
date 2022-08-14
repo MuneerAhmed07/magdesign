@@ -22,7 +22,7 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 section{
@@ -38,6 +38,7 @@ section{
     justify-content: space-between;
     border-bottom: .1rem solid #eee;
     position: relative;
+    overflow-x: hidden !important;
 }
 
 .header .search-form{
@@ -620,6 +621,7 @@ section{
 
     html{
         font-size: 55%;
+        overflow-x: hidden !important;
     }
 
     .header{
@@ -678,6 +680,7 @@ section{
 
     html{
         font-size: 50%;
+        overflow-x: hidden !important;
     }
 
     .header .icons #menu-btn{
